@@ -1,0 +1,20 @@
+const pessoa = {
+    nome: "Fernanda",
+    idade: 16,
+    cidade: "Rondonopolis"
+};
+
+for (let chave in pessoa) {
+    console.log(${chave}: ${pessoa[chave]});
+}
+
+
+const flores = ["Rosa", "Margarida", "Lirio", "Orquidea", "Lavanda"];
+for (let flor of flores) {
+    console.log(flor);
+}
+
+const string = "Fernanda";
+for (let caractere of string) {
+    console.log(caractere);
+}
