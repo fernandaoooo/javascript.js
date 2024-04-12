@@ -26,4 +26,21 @@ function desconto(valor, porcentagem) {
 }
 console.log(desconto(100,10));
 
+function circulo(raio) {
+    var area = (3.14 * (raio*raio));
+    return (area);
+}
+console.log(circulo(4));
+
+function graus(c) {
+    var f = c*1.8 + 32;
+    return (f);
+}
+console.log(graus(2));
+
+function imc(altura, peso){
+    var imc = (peso /(altura*altura));
+    return (imc.toFixed(1));
+}
+console.log(imc(1.60, 55));
 
